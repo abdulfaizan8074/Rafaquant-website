@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – RafaQuant Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body class="bg-gradient-to-br from-white via-blue-50 to-purple-50 text-gray-900 font-sans">
+
+<!-- Navbar -->
+<nav class="bg-white border-b shadow sticky top-0 z-50 py-2">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center space-x-2">
+        <img src="../public/images/logo-icon.jpg" alt="RafaQuant Logo" class="h-12 w-auto object-contain">
+        <div class="leading-tight">
+          <h1 class="text-lg font-bold text-indigo-800">RafaQuant Academy</h1>
+          <p class="text-xs text-gray-600">Empowering Data Minds</p>
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-6 text-sm font-semibold">
+        <a href="index.html" class="text-gray-700 hover:text-indigo-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-indigo-600">About</a>
+        <a href="courses.html" class="text-gray-700 hover:text-indigo-600">Courses</a>
+        <a href="admissions.html" class="text-gray-700 hover:text-indigo-600">Admissions</a>
+        <a href="testimonials.html" class="text-gray-700 hover:text-indigo-600">Testimonials</a>
+        <a href="projects.html" class="text-gray-700 hover:text-indigo-600">Projects</a>
+        <a href="blog.html" class="text-gray-700 hover:text-indigo-600">Blog</a>
+        <a href="contact.html" class="text-indigo-700 font-bold">Contact</a>
+        <a href="faq.html" class="text-gray-700 hover:text-indigo-600">FAQs</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Header with Particles -->
+<section class="relative h-[400px] overflow-hidden bg-gray-900">
+  <div id="particles-js" class="absolute top-0 left-0 w-full h-full z-0"></div>
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+    <h1 class="text-4xl font-bold mb-4">Get in Touch</h1>
+    <p class="text-lg">We’d love to hear from you. Reach out for any queries!</p>
+  </div>
+</section>
+
+<!-- Contact Info Section -->
+<section class="py-12 px-6 max-w-4xl mx-auto text-center bg-white/70 backdrop-blur-md rounded-xl shadow my-10">
+  <h2 class="text-2xl font-bold mb-6">📞 Contact Information</h2>
+  <div class="space-y-4 text-lg text-gray-800">
+    <p>📧 Email: <a href="mailto:rafaquantacademy@gmail.com" class="text-indigo-700 underline">rafaquantacademy@gmail.com</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/918790340174" class="text-indigo-700 underline">+91 8790340174</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/rafaquantacademy" class="text-indigo-700 underline">@rafaquantacademy</a></p>
+  </div>
+</section>
+
+<!-- Contact Form Button -->
+<section class="text-center py-16 bg-white/60 backdrop-blur-md rounded-xl shadow mx-6 my-10">
+  <h2 class="text-2xl font-bold mb-4">📝 Send Us a Message</h2>
+  <p class="text-lg mb-6">Fill out the contact form and we’ll get back to you ASAP.</p>
+  <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" target="_blank"
+     class="bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-indigo-700 transition">
+    Open Contact Form
+  </a>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 bg-gray-900 text-white text-center text-sm">
+  <div class="mb-2">Follow us on Instagram: <a href="https://instagram.com/rafaquantacademy" class="underline">@rafaquantacademy</a></div>
+  <div>Email: <a href="mailto:rafaquantacademy@gmail.com" class="underline">rafaquantacademy@gmail.com</a></div>
+  <div class="mt-4">© 2025 RafaQuant Academy. All Rights Reserved.</div>
+</footer>
+
+<!-- ParticlesJS Config -->
+<script>
+particlesJS('particles-js', {
+  "particles": {
+    "number": { "value": 70, "density": { "enable": true, "value_area": 800 }},
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "line_linked": {
+      "enable": true, "distance": 150,
+      "color": "#ffffff", "opacity": 0.4, "width": 1
+    },
+    "move": { "enable": true, "speed": 2 }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" },
+      "resize": true
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+</html>

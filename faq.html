@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQs – RafaQuant Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body class="bg-gradient-to-br from-white via-blue-50 to-purple-50 text-gray-900 font-sans">
+
+<!-- Navbar -->
+<nav class="bg-white border-b shadow sticky top-0 z-50 py-2">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center space-x-2">
+        <img src="../public/images/logo-icon.jpg" alt="RafaQuant Logo" class="h-12 w-auto object-contain">
+        <div class="leading-tight">
+          <h1 class="text-lg font-bold text-indigo-800">RafaQuant Academy</h1>
+          <p class="text-xs text-gray-600">Empowering Data Minds</p>
+        </div>
+      </div>
+      <div class="hidden md:flex space-x-6 text-sm font-semibold">
+        <a href="index.html" class="text-gray-700 hover:text-indigo-600">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-indigo-600">About</a>
+        <a href="courses.html" class="text-gray-700 hover:text-indigo-600">Courses</a>
+        <a href="admissions.html" class="text-gray-700 hover:text-indigo-600">Admissions</a>
+        <a href="testimonials.html" class="text-gray-700 hover:text-indigo-600">Testimonials</a>
+        <a href="projects.html" class="text-gray-700 hover:text-indigo-600">Projects</a>
+        <a href="blog.html" class="text-gray-700 hover:text-indigo-600">Blog</a>
+        <a href="contact.html" class="text-gray-700 hover:text-indigo-600">Contact</a>
+        <a href="faq.html" class="text-indigo-700 font-bold">FAQs</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Header with Particles -->
+<section class="relative h-[400px] overflow-hidden bg-gray-900">
+  <div id="particles-js" class="absolute top-0 left-0 w-full h-full z-0"></div>
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
+    <h1 class="text-4xl font-bold mb-4">Frequently Asked Questions</h1>
+    <p class="text-lg">Get quick answers to your most common queries.</p>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16 px-6 max-w-4xl mx-auto space-y-10">
+  <h2 class="text-3xl font-bold text-center text-indigo-800 mb-10">📌 Common Questions</h2>
+
+  <div class="space-y-6 text-lg">
+    <div class="bg-white/70 backdrop-blur-md p-6 rounded-xl shadow border-l-4 border-indigo-600">
+      <h3 class="font-semibold text-xl text-indigo-700">1. Do I need a coding background to join?</h3>
+      <p class="mt-2 text-gray-800">Not at all! Our courses are designed for both coding and non-coding backgrounds. We teach everything from scratch in a beginner-friendly way.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-md p-6 rounded-xl shadow border-l-4 border-indigo-600">
+      <h3 class="font-semibold text-xl text-indigo-700">2. What tools will I learn in the Data Analyst course?</h3>
+      <p class="mt-2 text-gray-800">You’ll learn Python, Excel, Power BI, SQL, Pandas, Matplotlib, Seaborn, and more — all through hands-on projects and real-world use cases.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-md p-6 rounded-xl shadow border-l-4 border-indigo-600">
+      <h3 class="font-semibold text-xl text-indigo-700">3. Will I get a certificate after completion?</h3>
+      <p class="mt-2 text-gray-800">Yes, every course includes a professional certificate from RafaQuant Academy after successful completion.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-md p-6 rounded-xl shadow border-l-4 border-indigo-600">
+      <h3 class="font-semibold text-xl text-indigo-700">4. Do you offer placement assistance?</h3>
+      <p class="mt-2 text-gray-800">Yes, we provide resume building, mock interviews, LinkedIn profile optimization, and job/internship referral support.</p>
+    </div>
+
+    <div class="bg-white/70 backdrop-blur-md p-6 rounded-xl shadow border-l-4 border-indigo-600">
+      <h3 class="font-semibold text-xl text-indigo-700">5. Are the classes live or recorded?</h3>
+      <p class="mt-2 text-gray-800">All classes are conducted live with interaction. However, you will also get recordings of each session to revise at your own pace.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 bg-gray-900 text-white text-center text-sm">
+  <div class="mb-2">Follow us on Instagram: <a href="https://instagram.com/rafaquantacademy" class="underline">@rafaquantacademy</a></div>
+  <div>Email: <a href="mailto:rafaquantacademy@gmail.com" class="underline">rafaquantacademy@gmail.com</a></div>
+  <div class="mt-4">© 2025 RafaQuant Academy. All Rights Reserved.</div>
+</footer>
+
+<!-- Particles.js Config -->
+<script>
+particlesJS('particles-js', {
+  "particles": {
+    "number": { "value": 70, "density": { "enable": true, "value_area": 800 }},
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "line_linked": {
+      "enable": true, "distance": 150,
+      "color": "#ffffff", "opacity": 0.4, "width": 1
+    },
+    "move": { "enable": true, "speed": 2 }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" },
+      "resize": true
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+</html>
